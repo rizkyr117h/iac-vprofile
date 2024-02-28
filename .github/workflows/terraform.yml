@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Terraform with specified version on the runner
-        uses: Hashicorp/setup-terraform@v2
+        uses: Hashicorp/setup-terraform@v3
 
       - name: Terraform init
         id: init
